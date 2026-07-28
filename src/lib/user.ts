@@ -1,3 +1,4 @@
+// Profile fields used across the UI after auth; keep in sync with the users table / Supabase session.
 export type User = {
   id: string
   displayName: string
